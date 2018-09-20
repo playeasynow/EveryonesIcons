@@ -31,15 +31,15 @@ $(document).ready(function () {
                 // creating and storing an image tag
                 var iconImage = $("<img>");
                 // setting the src attribute of the image to a property pulled off the result item
-                iconImage.attr("src", results[i].images.fixed_height.url);
+                iconImage.attr("src", results[i].images.fixed_height_still.url);
                 iconImage.attr("data-still", results[i].images.fixed_height_still.url);
                 iconImage.attr("data-animate", results[i].images.fixed_height.url);
-                iconImage.attr("data-state", "still");
+                iconImage.attr("data-state", "animate");
                 iconImage.addClass("iconImage");
 
                 // Appending the paragraph and image tag to the iconDiv
-                iconDiv.prepend(iconImage);
                 iconDiv.prepend(p);
+                iconDiv.prepend(iconImage);
                 $("#icons-view").prepend(iconDiv);
             }
 
