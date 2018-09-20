@@ -35,7 +35,7 @@ $(document).ready(function () {
                 iconImage.attr("data-still", results[i].images.fixed_height_still.url);
                 iconImage.attr("data-animate", results[i].images.fixed_height.url);
                 iconImage.attr("data-state", "animate");
-                iconImage.addClass("iconImage");
+                iconImage.addClass("iconImage img-fluid");
 
                 // Appending the paragraph and image tag to the iconDiv
                 iconDiv.prepend(p);
