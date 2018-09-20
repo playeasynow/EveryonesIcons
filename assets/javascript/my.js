@@ -26,6 +26,8 @@ $(document).ready(function () {
                 // creating a paragraph tag with the result item's rating
                 var p = $("<p>").text("Rating: " + results[i].rating);
 
+                p.addClass("rating animated pulse");
+
                 // creating and storing an image tag
                 var iconImage = $("<img>");
                 // setting the src attribute of the image to a property pulled off the result item

@@ -21,6 +21,10 @@ body {
     margin-bottom: 20px;
 }
 
+p {
+    font-weight: bold;
+}
+
 #icon-input {
     margin-left: 4vw;
 }
