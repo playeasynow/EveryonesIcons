@@ -6,7 +6,7 @@ $(document).ready(function () {
     // re-renders HTML to display appropriate content for each icon
     function displayIconGifs() {
         var icon = $(this).attr("data-name");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + icon + "&apikey=og7P4A2raQmMUV60NTJG8NkmLPGbVrXb&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + icon + "&apikey=og7P4A2raQmMUV60NTJG8NkmLPGbVrXb&limit=10";
 
         // creates AJAX call for specific icon button being clicked
         $.ajax({
@@ -81,6 +81,7 @@ $(document).ready(function () {
         topics.push(icon);
 
         renderButtons();
+        $("#icon-input").val("");
     });
 
     // Function for displaying the icon GIF
