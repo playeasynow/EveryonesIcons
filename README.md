@@ -5,14 +5,14 @@ v1.0 \
 Orig. Deployment - September 22, 2018
 
 # Idea
-I wanted to learn more about icons important and influential to the LGBTQ community, so I decided to use this as the theme for this project. The icons I listed first are some of my favorite. Hope you enjoy!
+I wanted to learn more about icons important and influential to the LGBTQ community, so I decided to use this as the theme for the project. The icons I listed first are some of my favorite. Hope you enjoy!
 
 # User Guide
 ![Image of Rupaul](./assets/images/rupaulCrazyLaugh.gif)
 
 Here's how it works:
 
-- You have an initial set of buttons to click on to generate GIFs. They are people iconic in the LGBTQ community
+- You have an initial set of buttons to click on to generate GIFs. They are people iconic in the LGBTQ community.
 - When you click on a button, the page will grab 10 static, non-animated gif images from the GIPHY API and place them on the page.
 - When you click one of the still GIPHY images, the gif will animate. If you click the gif again, it will stop playing.
 - Under every gif, its rating is displayed (PG, G, so on).
