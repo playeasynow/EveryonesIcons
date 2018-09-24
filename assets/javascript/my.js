@@ -71,7 +71,7 @@ $(document).ready(function () {
     }
 
     // captures value from button click
-    $("#add-icon").on("click tap", function (event) {
+    $("#add-icon").on("click touch", function (event) {
         event.preventDefault();
 
         // stores value entered into the form
@@ -86,7 +86,7 @@ $(document).ready(function () {
 
     // Function for displaying the icon GIF
     // Using $(document).on instead of $(".icon").on to add event listeners to dynamically generated elements
-    $(document).on("click", ".icon", displayIconGifs);
+    $(document).on("click touch", ".icon", displayIconGifs);
 
     renderButtons();
 
